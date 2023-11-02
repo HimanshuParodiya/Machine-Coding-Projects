@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.accordion__box {
+    margin-top: 4rem;
+    margin-left: 1rem;
+    width: 25rem;
+}
+
+.accordion__box .accordionBox__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-top: 1px solid black;
+    margin-top: 1rem;
+    /* padding: 1rem 0rem; */
+}
+
+.accordion__box .accordionBox__title:first-child {
+    border-top: none;
+}
+
+.accordion__box .accordionBox__title .rotate {
+    rotate: 45deg;
+}
+
+.accordion__box .accordionBox__title p {
+    font-size: 1.2rem;
+}
+
+.accordion__box .accordionBox__title span {
+    font-size: 1.5rem;
+}
+
+.accordion__box .accordionBox__content {
+    margin-top: 0.5rem;
+
+    display: none;
+}
+
+
+.accordion__box .accordionBox__content.active {
+    display: block;
+}
