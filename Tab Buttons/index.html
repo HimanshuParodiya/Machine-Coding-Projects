@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Tab Functionality Using HTML, CSS, and JavaScript</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="menu__items">
+            <!-- we have used custom data attribute data-tab-target so in JavaScript we can easily select them   -->
+            <li data-tab-target="#home" class="active menu__item">Home</li>
+            <li data-tab-target="#about" class="menu__item">About</li>
+            <li data-tab-target="#contact" class="menu__item">Contact</li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <div class="tab__content">
+                <div id="home" data-tab-content class="active">
+                    <h1 class="heading">Home</h1>
+                    <p class="home__data">This is home section</p>
+                </div>
+                <div id="about" data-tab-content>
+                    <h1 class="heading">About</h1>
+                    <p class="home__data">This is about section</p>
+                </div>
+                <div id="contact" data-tab-content>
+                    <h1 class="heading">Contact</h1>
+                    <p class="home__data">This is contact section</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

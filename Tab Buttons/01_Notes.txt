@@ -1,0 +1,5 @@
+We want to implement tab functionality using HTML, CSS, and JavaScript.
+When you click on 'Home,' it will display the home page content. The same applies to the 'Pricing' and 'About' sections.
+
+
+So let's get Started 🚀🚀🚀🚀
